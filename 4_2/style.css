@@ -1,0 +1,73 @@
+/* CSS내에서 다른 CSS 파일을 가져와 연결하는 방식 */
+@import url("./style2.css");/*url함수(function)*/
+
+span.orange {
+    color: orange;
+}
+
+/* 자식 선택자 */
+/* ul의 자식 요소인 class "green" 속성과 값을 */
+ul > .green {
+    color: green;
+}
+
+/* 하위 선택자 */
+li .red {
+    color: red;
+}
+
+/* 인접 형태 선택자 */
+
+.yellow ~ li {
+    color: yellowgreen;
+}
+
+.purple:hover {
+    color: purple;
+}
+
+.purple:active {
+    color: red;
+}
+input:focus {
+    background-color: aqua;
+}
+
+.car span:first-child {
+    color: orange;
+}
+.car h3:last-child {
+    color: gray;
+}
+.car *:nth-child(2){
+    color: red;
+}
+.car *:not(span){
+    font-size: x-large;
+}
+.box::before {
+    content: "👌";
+}
+.box::after {
+    content: "👍";
+}
+
+[disabled] {
+    color: red;
+}
+[type="password"] {
+    color: darkseagreen;
+}
+[value="HI"] {
+    color: blue;
+}
+.animal {
+    color: red;
+}
+/* 우선순위 */
+div {color: red !important;}
+#color_yellow { color: yellow;}
+.color_green {color: green;}
+div {color: blue;}
+* { color: brown;}
+body {color: violet;}
