@@ -8,14 +8,15 @@ let data = [
     {
         id : 1,
         title : "red wine",
-        content : "from Seoul",
+        content : "from seoul",
         price : 110000
     },
     {
         id : 2,
-        title : "Grey Jordan",
+        title : "Grey lordan",
         content : "from United States",
         price : 130000
-    },
+    }
 ]
+
 export default data;
