@@ -3,7 +3,7 @@
 #Introduction
 1. Repository Clone
 ```bash
-git clone === [https://github.com/baqnngg/React-Study](https://github.com/baqnngg/React-Study.git)
+git clone === [https://github.com/wltjr32/React-study](https://github.com/wltjr32/React-study.git)
 ```
 
 2. install npm packages
